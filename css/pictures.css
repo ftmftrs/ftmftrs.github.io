@@ -25,4 +25,10 @@
     font-size: 72px;
     color: #FFFFFF;
     font-family: 'cm_old_westernregular';
+
+    -webkit-mask-image: url(/img/grunge.jpg);
+    -o-mask-image: url(/img/grunge.jpg);
+    -moz-mask-image: url(/img/grunge.jpg);
+    -ms-mask-image: url(/img/grunge.jpg);
+    mask-image: url(/img/grunge.jpg);
 }

@@ -44,12 +44,13 @@
             
             if( classie.has( menu, 'bt-menu-open' ) ) {
                 resetMenu();
-            }
-            else {
+            } else {
                 classie.remove( menu, 'bt-menu-close' );
                 classie.add( menu, 'bt-menu-open' );
                 overlay.addEventListener( eventtype, closeClickFn );
             }
+
+            overlay.blur();
         });
 
         if( triggerPlay ) {
@@ -63,6 +64,7 @@
             });
         }
 
+        classie.add( menu, 'animation' );
     }
 
     init();
