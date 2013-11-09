@@ -4,12 +4,43 @@
         <meta charset="utf-8">
         <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
 
-        <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/pictures.css">
+        <link rel="stylesheet" href="/css/menu.css">
+        <link rel="stylesheet" href="/fonts/cm_old_western/stylesheet.css">
+        <script src="/js/modernizr.custom.js"></script>
     </head>
     <body>
 
-        {{ content }}
+        <div class="container">
 
+            {{ content }}
+
+            <!--<header class="codrops-header">-->
+                <!--<h1>Animated Border Menus <span>Inspired by CreativeDash's <a href="http://creativeda.sh/sandbox/bounce_menu/">bounce menu</a></h1>-->
+                <!--<p class="codrops-links"><a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/CreativeLoadingEffects/"><span>Previous Demo</span></a>-->
+                    <!--<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16556"><span>Back to the Codrops Article</span></a></span></p>-->
+                <!--<nav class="codrops-demos">-->
+                    <!--<a href="index.html">Demo 1</a>-->
+                    <!--<a href="index2.html">Demo 2</a>-->
+                    <!--<a class="current-demo" href="index3.html">Demo 3</a>-->
+                    <!--<a href="index4.html">Demo 4</a>-->
+                    <!--<a href="index5.html">Demo 5</a>-->
+                    <!--<a href="index6.html">Demo 6</a>-->
+                <!--</nav>-->
+                <!--<div class="codrops-related">-->
+                    <!--If you enjoyed this menu, you might also like:<br />-->
+                    <!--<a href="http://tympanus.net/Development/MultiLevelPushMenu/">Multi-Level Push Menu</a><br/>-->
+                    <!--<a href="http://tympanus.net/Development/SidebarTransitions/">Transitions for Off-canvas Navigations</a>-->
+                <!--</div>-->
+            <!--</header>-->
+
+            {% include menu.html %}
+
+        </div><!-- /container -->
+
+
+        <script src="/js/classie.js"></script>
+        <script src="/js/borderMenu.js"></script>
     </body>
 </html>
