@@ -8,4 +8,6 @@ html {
 body  {
     background: #2980b9;
     font-family: 'Lato', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
