@@ -53,8 +53,8 @@
 
 .cbp-so-side img {
     max-width: 100%;
+    max-height: 750px;
     border-radius: 20px;
-
 }
 
 /* Clear floats of children */
@@ -113,9 +113,9 @@
 
 /* For example, add a delay for the right side:
 .cbp-so-section.cbp-so-animate .cbp-so-side-right {
-	-webkit-transition-delay: 0.2s;
-	-moz-transition-delay: 0.2s;
-	transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    transition-delay: 0.2s;
 }
 */
 
