@@ -1,6 +1,6 @@
-<nav id="bt-menu" class="bt-menu{% if include.menu-show %} bt-menu-open{% endif %}">
+<nav id="bt-menu" class="bt-menu bt-menu-{% if include.menu-show %}open{% else %}close{% endif %}">
     {% if include.menu-button-hidden %}
-        <a href="#" class="bt-menu-trigger fullscreen"></a>
+        <a href="#" class="bt-menu-trigger fullscreen"><span>Menu</span></a>
     {% else %}
         <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
     {% endif %}

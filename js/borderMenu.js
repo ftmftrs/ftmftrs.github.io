@@ -63,8 +63,6 @@
                 overlay.addEventListener( eventtype, closeClickFn );
             });
         }
-
-        classie.add( menu, 'animation' );
     }
 
     init();
