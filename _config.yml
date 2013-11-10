@@ -2,4 +2,4 @@ name: Fatum Fatras
 markdown: redcarpet
 pygments: false
 url: http://ftmftrs.github.io
-exclude: [README.md, src]
+exclude: [README.md, src, CNAME]
