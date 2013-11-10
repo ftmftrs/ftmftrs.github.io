@@ -264,14 +264,6 @@
         margin: 0 2%;
     }
 
-    .bt-menu ul li:nth-child(3) {
-        margin-right: 50px;
-    }
-
-    .bt-menu ul li:nth-child(4) {
-        margin-left: 50px;
-    }
-
     .bt-menu ul li a:before {
         font-size: 24px;
     }
