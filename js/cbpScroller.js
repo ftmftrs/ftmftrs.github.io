@@ -137,3 +137,5 @@
     window.cbpScroller = cbpScroller;
 
 } )( window );
+
+new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );

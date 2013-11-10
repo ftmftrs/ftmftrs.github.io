@@ -16,7 +16,7 @@
     </head>
     <body>
 
-        <div class="container{% if page.section == 'introduction' %} slide{% endif %}">
+        <div class="container">
 
             {{ content }}
 
@@ -27,11 +27,7 @@
 
         <script src="/js/classie.js"></script>
         <script src="/js/borderMenu.js"></script>
-        {% if page.section == "introduction" %}
-            <script src="/js/cbpScroller.js"></script>
-            <script>
-                new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
-            </script>
-        {% endif %}
+        <script src="/js/cbpScroller.js"></script>
+
     </body>
 </html>
