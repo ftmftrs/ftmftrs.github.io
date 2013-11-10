@@ -25,6 +25,8 @@
     font-size: 72px;
     color: #FFFFFF;
     font-family: 'cm_old_westernregular';
+    font-weight: normal;
+    text-shadow: 5px 5px 1px #000000;
 
     -webkit-mask-image: url(/img/grunge.jpg);
     -o-mask-image: url(/img/grunge.jpg);
