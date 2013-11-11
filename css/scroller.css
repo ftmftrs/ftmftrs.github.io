@@ -76,6 +76,14 @@
     text-align: right;
 }
 
+.cbp-so-side-right.center {
+    text-align: center;
+}
+
+.cbp-so-side-left.center {
+    text-align: center;
+}
+
 .cbp-so-side-right img {
     float: left;
 }
