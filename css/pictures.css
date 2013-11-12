@@ -1,5 +1,5 @@
 .homepage {
-    with: 100%;
+    width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -10,7 +10,8 @@
     bottom: 0;
     left: 0;
 
-    background: black url(/img/fatumfatras-panoramic.jpg) center center no-repeat;;
+    background-position: center center;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,3 +29,23 @@
     font-weight: normal;
     text-shadow: 5px 5px 1px #000000;
 }
+
+@media only screen and (max-width : 320px) {
+    .homepage {background-image: url(/dist/img/xs/fatumfatras-panoramic.jpg);}
+}
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+    .homepage {background-image: url(/dist/img/s/fatumfatras-panoramic.jpg);}
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .homepage {background-image: url(/dist/img/m/fatumfatras-panoramic.jpg);}
+}
+@media only screen and (min-width : 1024px) and (max-width : 1366px) {
+    .homepage {background-image: url(/dist/img/l/fatumfatras-panoramic.jpg);}
+}
+@media only screen and (min-width : 1366px) and (max-width : 1680px) {
+    .homepage {background-image: url(/dist/img/xl/fatumfatras-panoramic.jpg);}
+}
+@media only screen and (min-width : 1680px) {
+    .homepage {background-image: url(/dist/img/xxl/fatumfatras-panoramic.jpg);}
+}
+
