@@ -30,6 +30,10 @@
     text-shadow: 5px 5px 1px #000000;
 }
 
+.music {
+    padding: 40px 40px 0;
+}
+
 @media only screen and (max-width : 320px) {
     .homepage {background-image: url(/dist/img/xs/fatumfatras-panoramic.jpg);}
 }
