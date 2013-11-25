@@ -1,5 +1,5 @@
 name: Fatum Fatras
 markdown: redcarpet
 pygments: false
-url: http://ftmftrs.github.io
+url: http://www.fatumfatras.com
 exclude: [README.md, src, CNAME, .gitignore, Gruntfile.js, package.json, node_modules]
