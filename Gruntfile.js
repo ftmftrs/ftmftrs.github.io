@@ -3,6 +3,35 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        less: {
+            bundles: {
+                files: filesLess
+            }
+        },
+
+        cssmin: {
+            minify: {
+                expand: true,
+                src: ['built/styles.css'],
+                ext: '.min.css'
+            }
+        },
+
+        concat: {
+            css: {
+                src: [
+                    'built/css/*.css'
+                ],
+                dest: 'built/styles.css'
+            }
+        },
+
+        watch: {
+            css: {
+                files: ['src/less/*.less'],
+                tasks: ['css']
+            }
+        },
         "imagemagick-resize":{
             xs1:{
                 from:'src/img/1/',
@@ -113,14 +142,14 @@ module.exports = function(grunt) {
                 }
             }
         },
-        imagemin: {                          // Task
-            dynamic: {                         // Another target
+        imagemin: {
+            dynamic: {
                 files: [{
-                    expand: true,                  // Enable dynamic expansion
+                    expand: true,
                     progressive: true,
-                    cwd: 'dist/',                   // Src matches are relative to this path
-                    src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
-                    dest: 'dist/'                  // Destination path prefix
+                    cwd: 'dist/',
+                    src: ['img/**/*.{png,jpg,gif}'],
+                    dest: 'dist/'
                 }]
             }
         }
@@ -129,7 +158,30 @@ module.exports = function(grunt) {
     // Load the plugin
     grunt.loadNpmTasks('grunt-imagemagick');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
-    grunt.registerTask('default', ['imagemagick-resize', 'imagemin']);
+    grunt.registerTask('default', ['css', 'imagemagick-resize', 'imagemin']);
+    grunt.registerTask('css', ['less:discovering', 'less', 'concat:css', 'cssmin']);
+    grunt.registerTask('less:discovering', 'This is a function', function() {
+        // LESS Files management
+        // Source LESS files are located inside : bundles/[bundle]/less/
+        // Destination CSS files are located inside : built/[bundle]/css/
+        var mappingFileLess = grunt.file.expandMapping(
+            ['*.less'],
+            'built/css/', {
+                cwd: 'src/less/',
+                rename: function(dest, matchedSrcPath, options) {
+                    return dest + matchedSrcPath.replace(/less/g, 'css');
+                }
+            });
+
+        grunt.util._.each(mappingFileLess, function(value) {
+            // Why value.src is an array ??
+            filesLess[value.dest] = value.src[0];
+        });
+    });
 };

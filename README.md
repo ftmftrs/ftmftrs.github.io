@@ -1,4 +1,13 @@
-Fatum Fatras Website
---------------------
+# Fatum Fatras Website
 
-WIP
+Board : https://waffle.io/ftmftrs/ftmftrs.github.io
+
+## For development
+
+### Launch server
+
+    jekyll server --watch
+
+### Auto-compile all assets
+
+    grunt watch

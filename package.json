@@ -1,16 +1,15 @@
 {
   "name": "ftmftrs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-cli": "~0.1.9",
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-less": "~0.10",
+    "grunt-contrib-cssmin": "~0.7",
+    "grunt-contrib-concat": "~0.3",
+    "grunt-gh-pages": "~0.9",
+    "grunt-contrib-watch": "~0.4",
     "grunt-imagemagick": "git://github.com/icagstrout/grunt-imagemagick.git",
-    "grunt-contrib-imagemin": "~0.3.0"
-  },
-  "licenses": [
-    {
-      "type": "CC-BY 3.0",
-      "url": "http://creativecommons.org/licenses/by/3.0/en/"
-    }
-  ]
+    "grunt-contrib-imagemin": "0.7.1"
+  }
 }

@@ -1,0 +1,23 @@
+.concert li {
+    list-style-type:none;
+    text-align: left;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+.concert h3, .concert time, .concert address {
+    display: inline-block;
+    padding: 5px;
+}
+.concert h3 {
+    width: 50%;
+    text-align: center;
+}
+.concert time {
+    width: 24%;
+    text-align: center;
+}
+.concert address {
+    width: 24%;
+    text-align: center;
+}
