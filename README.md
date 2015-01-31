@@ -1,6 +1,7 @@
 # Fatum Fatras Website
 
-Board : https://waffle.io/ftmftrs/ftmftrs.github.io
+- [Demo :-)](http://www.fatumfatras.com)
+- [Trello](https://trello.com/b/9QVMgSbg/fatumfatras)
 
 ## For development
 
