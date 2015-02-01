@@ -34,3 +34,6 @@
 .media section {
     margin: 40px;
 }
+.concert a, .concert a:hover, .concert a:focus {
+    color: #615334;
+}

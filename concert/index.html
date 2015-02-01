@@ -30,7 +30,7 @@ menu: false
             <ul>
                 {% for concert in site.data.concerts %}
                 <li>
-                    <h3>{{ concert.title }}</h3>
+                    <h3>{% if concert.link %}<a href="{{ concert.link }}" target="_blank">{% endif %}{{ concert.title }}{% if concert.link %}</a>{% endif %}</h3>
                     <time>{{ concert.date }}</time>
                     <address>{{ concert.address }}</address>
                 </li>
