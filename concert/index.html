@@ -25,14 +25,29 @@ menu: false
         </article>
     </section>
     <section class="cbp-so-section concert">
-        <article class="cbp-so-side cbp-so-side-left">
+        <h2>2015</h2>
+        <article class="cbp-so-side cbp-so-side-right">
             <ul>
                 {% for concert in site.data.concerts %}
-                    <li>
-                        <h3>{{ concert.title }}</h3>
-                        <time>{{ concert.date }}</time>
-                        <address>{{ concert.address }}</address>
-                    </li>
+                <li>
+                    <h3>{{ concert.title }}</h3>
+                    <time>{{ concert.date }}</time>
+                    <address>{{ concert.address }}</address>
+                </li>
+                {% endfor %}
+            </ul>
+        </article>
+    </section>
+    <section class="cbp-so-section concert">
+        <h2>2014</h2>
+        <article class="cbp-so-side cbp-so-side-right">
+            <ul>
+                {% for concert in site.data.concerts2014 %}
+                <li>
+                    <h3>{{ concert.title }}</h3>
+                    <time>{{ concert.date }}</time>
+                    <address>{{ concert.address }}</address>
+                </li>
                 {% endfor %}
             </ul>
         </article>
