@@ -25,6 +25,20 @@ menu: false
         </article>
     </section>
     <section class="cbp-so-section concert">
+        <h2>2016</h2>
+        <article class="cbp-so-side cbp-so-side-right">
+            <ul>
+                {% for concert in site.data.concerts2016 %}
+                <li>
+                    <h3>{% if concert.link %}<a href="{{ concert.link }}" target="_blank">{% endif %}{{ concert.title }}{% if concert.link %}</a>{% endif %}</h3>
+                    <time>{{ concert.date }}</time>
+                    <address>{{ concert.address }}</address>
+                </li>
+                {% endfor %}
+            </ul>
+        </article>
+    </section>
+    <section class="cbp-so-section concert">
         <h2>2015</h2>
         <article class="cbp-so-side cbp-so-side-right">
             <ul>
