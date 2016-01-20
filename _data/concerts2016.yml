@@ -8,10 +8,6 @@
   date: 16 janvier
   address: Pompignan (30)
   
-- title: la Barge
-  date: 11 fevrier
-  address: Genêve (suisse)
-  
 - title: salle des fêtes
   date: 12 mars
   address: Réauville (26)
@@ -23,4 +19,8 @@
 - title: la fiesta de Santa fé  
   date: 7 mai
   address: Saint ferréol-trente-pas (26)
+  
+- title: la barge
+  date: 17 juin
+  address: Genève (Suisse)
   
