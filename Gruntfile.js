@@ -3,11 +3,6 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        less: {
-            bundles: {
-                files: filesLess
-            }
-        },
 
         cssmin: {
             minify: {
@@ -165,23 +160,5 @@ module.exports = function(grunt) {
 
     // Default task(s).
     grunt.registerTask('default', ['css', 'imagemagick-resize', 'imagemin']);
-    grunt.registerTask('css', ['less:discovering', 'less', 'concat:css', 'cssmin']);
-    grunt.registerTask('less:discovering', 'This is a function', function() {
-        // LESS Files management
-        // Source LESS files are located inside : bundles/[bundle]/less/
-        // Destination CSS files are located inside : built/[bundle]/css/
-        var mappingFileLess = grunt.file.expandMapping(
-            ['*.less'],
-            'built/css/', {
-                cwd: 'src/less/',
-                rename: function(dest, matchedSrcPath, options) {
-                    return dest + matchedSrcPath.replace(/less/g, 'css');
-                }
-            });
-
-        grunt.util._.each(mappingFileLess, function(value) {
-            // Why value.src is an array ??
-            filesLess[value.dest] = value.src[0];
-        });
-    });
+    grunt.registerTask('css', ['less', 'concat:css', 'cssmin']);
 };
