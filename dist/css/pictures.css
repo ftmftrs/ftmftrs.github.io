@@ -35,21 +35,20 @@
 }
 
 @media only screen and (max-width : 320px) {
-    .homepage {background-image: url(/dist/img/xs/fatumfatras-panoramic.jpg);}
+    .homepage {background-image: url(/dist/img/xs/accueil.jpg);}
 }
 @media only screen and (min-width : 320px) and (max-width : 768px) {
-    .homepage {background-image: url(/dist/img/s/fatumfatras-panoramic.jpg);}
+    .homepage {background-image: url(/dist/img/s/accueil.jpg);}
 }
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
-    .homepage {background-image: url(/dist/img/m/fatumfatras-panoramic.jpg);}
+    .homepage {background-image: url(/dist/img/m/accueil.jpg);}
 }
 @media only screen and (min-width : 1024px) and (max-width : 1366px) {
-    .homepage {background-image: url(/dist/img/l/fatumfatras-panoramic.jpg);}
+    .homepage {background-image: url(/dist/img/l/accueil.jpg);}
 }
 @media only screen and (min-width : 1366px) and (max-width : 1680px) {
-    .homepage {background-image: url(/dist/img/xl/fatumfatras-panoramic.jpg);}
+    .homepage {background-image: url(/dist/img/xl/accueil.jpg);}
 }
 @media only screen and (min-width : 1680px) {
-    .homepage {background-image: url(/dist/img/xxl/fatumfatras-panoramic.jpg);}
+    .homepage {background-image: url(/dist/img/xxl/accueil.jpg);}
 }
-
