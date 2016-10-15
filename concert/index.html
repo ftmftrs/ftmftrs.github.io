@@ -20,52 +20,26 @@ menu: false
                 Fatum Fatras est né en 2005 sous l’impulsion de plusieurs musiciens qui participaient à un atelier consacré aux musiques des balkans .
                 Leur passion pour cette culture et tous les styles de musique dont elle regorge,
                 du klezmer aux pieces traditionnelles macédoniennes ou roumaines en passant par la Serbie et les musiques Slave,
-                ont enrichit et inspiré l’univers et la couleur du groupe. 
+                ont enrichit et inspiré l’univers et la couleur du groupe.
 
             </p>
             <p>Le groupe a partagé la scène avec : La caravane passe, Haidouti orckestar, Idir, Mystère trio, Zaragraf, les tambours du bronx, Miossec ...</p>
         </article>
     </section>
-    <section class="cbp-so-section concert">
-        <h2>2016</h2>
-        <article class="cbp-so-side cbp-so-side-right">
-            <ul>
-                {% for concert in site.data.concerts2016 %}
-                <li>
-                    <h3>{% if concert.link %}<a href="{{ concert.link }}" target="_blank">{% endif %}{{ concert.title }}{% if concert.link %}</a>{% endif %}</h3>
-                    <time>{{ concert.date }}</time>
-                    <address>{{ concert.address }}</address>
-                </li>
-                {% endfor %}
-            </ul>
-        </article>
-    </section>
-    <section class="cbp-so-section concert">
-        <h2>2015</h2>
-        <article class="cbp-so-side cbp-so-side-right">
-            <ul>
-                {% for concert in site.data.concerts %}
-                <li>
-                    <h3>{% if concert.link %}<a href="{{ concert.link }}" target="_blank">{% endif %}{{ concert.title }}{% if concert.link %}</a>{% endif %}</h3>
-                    <time>{{ concert.date }}</time>
-                    <address>{{ concert.address }}</address>
-                </li>
-                {% endfor %}
-            </ul>
-        </article>
-    </section>
-    <section class="cbp-so-section concert">
-        <h2>2014</h2>
-        <article class="cbp-so-side cbp-so-side-right">
-            <ul>
-                {% for concert in site.data.concerts2014 %}
-                <li>
-                    <h3>{{ concert.title }}</h3>
-                    <time>{{ concert.date }}</time>
-                    <address>{{ concert.address }}</address>
-                </li>
-                {% endfor %}
-            </ul>
-        </article>
-    </section>
+    {% for year in site.data.concerts %}
+        <section class="cbp-so-section concert">
+            <h2>{{ year.name }}</h2>
+            <article class="cbp-so-side cbp-so-side-right">
+                <ul>
+                    {% for concert in year.dates %}
+                    <li>
+                        <h3>{% if concert.link %}<a href="{{ concert.link }}" target="_blank">{% endif %}{{ concert.title }}{% if concert.link %}</a>{% endif %}</h3>
+                        <time>{{ concert.date }}</time>
+                        <address>{{ concert.address }}</address>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </article>
+        </section>
+    {% endfor %}
 </div>
