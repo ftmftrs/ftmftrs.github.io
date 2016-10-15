@@ -11,4 +11,6 @@ addons:
     packages:
       - libmagick++-dev
 script:
-  - ./node_modules/.bin/grunt imagemagick-resize
+  - npm run clean
+  - npm run build
+  - ./src/push.sh
