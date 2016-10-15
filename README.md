@@ -1,6 +1,7 @@
 # Fatum Fatras Website
 
-- [Demo :-)](http://www.fatumfatras.com)
+- [Le site](http://fatumfatras.com)
+- [La documentation](./docs)
 - [Trello](https://trello.com/b/9QVMgSbg/fatumfatras)
 
 ## For development
