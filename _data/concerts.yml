@@ -118,13 +118,13 @@
       date: 26 novembre
       address: Concoules (30)
 
-    - title: Café Pailhon
-      date: 16 décembre
-      address: St Michel D'Euzet (30)
-
     - title: le Rex
       date: 17 décembre
       address: St Remy de Provence (13)
+      
+    - title: nouvel an
+      date: 31 décembre
+      address: Embrun (05)
 
 - name: 2015
   dates:
