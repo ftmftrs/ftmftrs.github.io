@@ -1,5 +1,27 @@
 ---
 
+- name: 2017
+  dates:
+    - title: la fête des bergers
+      date: 21 janvier
+      address: la Cimenterie, Forcalquier (04)
+      
+    - title: festival la rue Jaune 
+      date: 11 mars
+      address: Avignon (84)
+      
+    - title: le Kazkabar
+      date: 24 mars
+      address: Joyeuse (26)
+      
+    - title: le café plùm
+      date: 5 mai
+      address: Lautrec (81)
+      
+    - title: fête privée 
+      date: 6 mai
+      address: Bordeaux (33)
+       
 - name: 2016
   dates:
     - title: festival trad'hivernale
