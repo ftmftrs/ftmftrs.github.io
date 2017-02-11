@@ -10,10 +10,6 @@
       date: 11 mars
       address: Avignon (84)
       
-    - title: le Kazkabar
-      date: 24 mars
-      address: Joyeuse (26)
-      
     - title: le café plùm
       date: 5 mai
       address: Lautrec (81)
@@ -21,6 +17,19 @@
     - title: fête privée 
       date: 6 mai
       address: Bordeaux (33)
+      
+    - title: marché du jeudi soir
+      date: 25 mai
+      address: St Julien de Serre (07)
+      
+    - title: festival "d'une cour à l'autre"
+      date: 27 mai
+      address: Villeneuve de Berg (07)
+      
+    - title: Le Kazkabar
+      date: 2 juin
+      address: Joyeuse (07)
+      
        
 - name: 2016
   dates:
