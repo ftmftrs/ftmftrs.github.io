@@ -37,11 +37,16 @@
     - title: place de l'église 
       date: 12 juillet
       address: Moustiers ste Marie (04)
-      
+    
+    
     - title: les concerts du parc
       date: 17 août
       address: Uriage les bains (38)
-         
+     
+     -title: la Guichette à Michel
+      date: 24 août
+      address: Pompignan (30)
+      
 - name: 2016
   dates:
     - title: festival trad'hivernale
