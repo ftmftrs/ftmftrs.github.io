@@ -70,9 +70,17 @@
       date: 9 septembre
       address: Séguret (84)
     
+    - title: mariage
+      date: 29 septembre
+      address: Lausanne (Suisse)
+      
     - title: le cabaret des ramières 
       date: 28 octobre
       address: Eurre (26)
+    
+    - title: festival musique en novembre et festival des médiathèques
+      date: 24 novembre
+      address: Castellane (04)
       
 - name: 2016
   dates:
