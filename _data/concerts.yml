@@ -9,14 +9,14 @@
       date: 4 mai
       address: Reillane (04)
       
-    - title: brasserie la vieille mule
-      date: 24 mai
-      address: Le Poët Laval (26)
-      
     - title: festival gard à la bière
       date: 5 mai
       address: Bessèges (30)
-      
+    
+    - title: brasserie la vieille mule
+      date: 24 mai
+      address: Le Poët Laval (26)  
+    
     - title: fête de la musique
       date: 21 juin
       address: St Julien de Serre (07)
