@@ -12,6 +12,10 @@
     - title: Festival gard à la bière
       date: 5 mai
       address: Bessèges (30)
+     
+    - title: Marché du coin
+      date: 14 juin
+      address: Cliousclat (26)
       
     - title: Fête de la musique
       date: 21 juin
@@ -52,6 +56,10 @@
     - title: Fête de la lavande
       date: 14 août
       address: St Geniez (04)
+      
+    - title: Fête des brasseurs
+      date: 29 septembre
+      address: Thoard (04)
       
 - name: 2017
   dates:
