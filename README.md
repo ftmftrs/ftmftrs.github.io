@@ -4,7 +4,7 @@
 - [La documentation](./docs)
 - [Trello](https://trello.com/b/9QVMgSbg/fatumfatras)
 
-## For development
+## For development
 
 ### Launch server
 
