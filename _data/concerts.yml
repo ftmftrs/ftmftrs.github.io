@@ -1,4 +1,10 @@
 ---
+- name: 2019
+  dates:
+    - title: Les Oiseaux de Passage
+      date: 24 mai
+      address: Lentillères (07)
+
 - name: 2018
   dates:
     - title: La p'tite maison bio
