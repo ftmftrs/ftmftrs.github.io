@@ -5,7 +5,11 @@ language: node_js
 node_js:
   - "6"
 env:
-  - CC=clang CXX=clang++ npm_config_clang=1
+  global:
+    - CC=clang CXX=clang++ npm_config_clang=1
+    # To deploy
+    # travis encrypt GITHUB_TOKEN=<token> --org --repo ftmftrs/ftmftrs.github.io
+    - secure: "F/rCi5m78oF1DedN22oXi3CZEJvhmueg2bWqqCvttxoSMXVdhHP/hA0l70tMuaZK7TDkpBYfTkNIWdaOg/ljz0uAtfPwzwJXvk56wvXIYobfVHon1ZoY8x1dD/hL5bCEvqIhMICyJGYGnNo4XOGGveEvNY8JzOMgW8nc/fCk85s="
 addons:
   apt:
     packages:
