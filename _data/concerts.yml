@@ -1,6 +1,10 @@
 ---
 - name: 2019
   dates:
+    - title: Caraba
+      date: 2 février
+      address: Massillargues (30)
+      
     - title: Les Oiseaux de Passage
       date: 24 mai
       address: Lentillères (07)
