@@ -1,4 +1,27 @@
 ---
+- name: 2020
+  dates:
+    - title: Altitude Jazz Festival
+      date: 29,30 et 31 Janvier
+      address: Briançon (05)
+      
+    - title: Baracoucou
+      date: 1 Février
+      address: Valdrôme (26)
+      
+    - title: Printemps des Cultures
+      date: 29 Mai
+      address: Albi (81)
+      
+    - title: Concert
+      date: 6 Juin
+      address: Aude (11)
+      
+    - title: Concert
+      date: 20 Novembre
+      adress: St Jean de Maurienne
+      
+      
 - name: 2019
   dates:
     - title: Caraba
