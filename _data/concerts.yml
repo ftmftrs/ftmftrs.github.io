@@ -29,17 +29,25 @@
       date: 21 juin
       address: Aubignan (84)
     
-    - title: festival "l'été de Vaour" (annulé)
+    - title: festival "l'été de Vaour" (reporté)
       date: 5 août
       address: Vaour (81)
       
-    - title: festival Arts et Vignes (annulé)
+    - title: festival Arts et Vignes (reporté)
       date: 6 août
       address: Châtillon en Diois (26)
       
     - title: fête votive
       date: 15 août
       address: St Martin de Castillon (84)
+      
+    - title: Festival sous la falaise  
+      date: 5 septembre
+      address: St Jean en Royans (26)
+    
+    - title: Le week end
+      date: 12 septembre
+      address: Causse de la selle (34)
       
     - title: Foire bio de Montfroc
       date: 3 octobre
