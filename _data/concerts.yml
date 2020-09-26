@@ -1,4 +1,22 @@
 ---
+- name: 2021
+  dates:
+    - title: Zic et Move
+      date: Juin
+      address: Saint-Michel de Lanès (11)
+      
+    - title: Printemps des Cultures
+      date: 28 Mai
+      address: Albi (81)
+      
+    - title: festival "l'été de Vaour"
+      date: 4 août
+      address: Vaour (81)
+      
+     - title: fête votive
+      date: août
+      address: St Martin de Castillon (84) 
+      
 - name: 2020
   dates:
     - title: Altitude Jazz Festival
