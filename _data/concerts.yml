@@ -1,17 +1,30 @@
 ---
 - name: 2021
   dates:
-    - title: Zic et Move
-      date: Juin
-      address: Saint-Michel de Lanès (11)
-    
+ 
     - title: Mariage
       date: 14 Mai
       address: Caderousse (84)
       
+    - title: Les Arts en ville  
+      date: 19 mai
+      address: St Jean de Maurienne (73)
+      
     - title: Printemps des Cultures
       date: 28 Mai
       address: Albi (81)
+      
+    - title: Zic et Move
+      date: Juin
+      address: Saint-Michel de Lanès (11)  
+     
+    - title: Guinguette La Corne des pâtures 
+      date: 3 juillet
+      address: Baule (45)
+      
+    - title: Fête privée
+      date: 10 juillet
+      address: Suzette (84)
       
     - title: festival "l'été de Vaour"
       date: 4 août
