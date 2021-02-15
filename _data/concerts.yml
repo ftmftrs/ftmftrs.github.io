@@ -1,11 +1,7 @@
 ---
 - name: 2021
   dates:
- 
-    - title: Mariage
-      date: 14 Mai
-      address: Caderousse (84)
-      
+   
     - title: Les Arts en ville  
       date: 19 mai
       address: St Jean de Maurienne (73)
@@ -20,11 +16,15 @@
      
     - title: Guinguette La Corne des pâtures 
       date: 3 juillet
-      address: Baule (45)
+      address: Baule (45)  
       
     - title: Fête privée
       date: 10 juillet
       address: Suzette (84)
+      
+    - title: Chez felix  
+      date: 3 août
+      address: Anduze (30)
       
     - title: festival "l'été de Vaour"
       date: 4 août
