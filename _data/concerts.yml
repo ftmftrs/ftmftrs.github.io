@@ -3,7 +3,7 @@
   dates:
    
     - title: Les Arts en ville  
-      date: 19 mai
+      date: 21 mai
       address: St Jean de Maurienne (73)
       
     - title: Printemps des Cultures
@@ -31,8 +31,12 @@
       address: Vaour (81)
       
     - title: fête votive
-      date: août
+      date: 15 août
       address: St Martin de Castillon (84)
+    
+    - title: festival le week end
+      date: 11 septembre
+      address: Causse de la selle (34)
       
     - title: Foire bio de Montfroc
       date: 2 octobre
