@@ -6,7 +6,7 @@
       date: 21 mai
       address: St Jean de Maurienne (73)
       
-    - title: Printemps des Cultures
+    - title: Printemps des Cultures (reporté)
       date: 28 Mai
       address: Albi (81)
       
@@ -21,6 +21,10 @@
     - title: Fête privée
       date: 10 juillet
       address: Suzette (84)
+      
+    - title: fête privée
+      date: 30 juillet
+      address: Mezien (04)
     
     - title: Fête privée
       date: 31 juillet
@@ -33,6 +37,14 @@
     - title: festival "l'été de Vaour"
       date: 4 août
       address: Vaour (81)
+      
+    - title: Fête de soutien Ecoloc
+      date: 6 Août
+      address: Barret sur Méouge (05)
+      
+    - title: les jeudis musicaux 
+      date: 12 août
+      address: Aubenas (07)
       
     - title: fête votive
       date: 15 août
