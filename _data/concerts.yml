@@ -2,6 +2,10 @@
 - name: 2021
   dates:
    
+    - title: soirée privée
+      date: 14 mai
+      address: Montelimar (26)
+      
     - title: Les Arts en ville  
       date: 21 mai
       address: St Jean de Maurienne (73)
@@ -37,6 +41,10 @@
     - title: festival "l'été de Vaour"
       date: 4 août
       address: Vaour (81)
+      
+    - title: festival Arts et vignes
+      date: 5 août
+      address: Chatillion en Diois (26)
       
     - title: Fête de soutien Ecoloc
       date: 6 Août
