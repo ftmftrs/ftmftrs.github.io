@@ -1,10 +1,6 @@
 ---
 - name: 2021
   dates:
-   
-    - title: soirée privée
-      date: 14 mai
-      address: Montelimar (26)
       
     - title: Les Arts en ville  
       date: 21 mai
