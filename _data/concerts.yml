@@ -1,455 +1,56 @@
 ---
-- name: 2021
+- name: 2022
   dates:
-      
-    - title: Les Arts en ville  
-      date: 21 mai
-      address: St Jean de Maurienne (73)
-      
-    - title: Printemps des Cultures (reporté)
-      date: 28 Mai
-      address: Albi (81)
-    
-    - title: fête de l'amicale laique
-      date: 2 juillet
-      address: Meymans (26)
-       
-    - title: Guinguette La Corne des pâtures 
-      date: 3 juillet
-      address: Baule (45)  
-      
-    - title: Fête privée
-      date: 10 juillet
-      address: Suzette (84)
-      
-    - title: fête privée
-      date: 30 juillet
-      address: Mezien (04)
-    
-    - title: Fête privée
-      date: 31 juillet
-      address: Roche Colombe (26)
-     
-    - title: Chez felix  
-      date: 3 août
-      address: Anduze (30)
-      
-    - title: festival "l'été de Vaour"
-      date: 4 août
-      address: Vaour (81)
-      
-    - title: festival Arts et vignes
-      date: 5 août
-      address: Chatillion en Diois (26)
-      
-    - title: Soirée de soutien Ecoloc
-      date: 6 Août
-      address: Barret sur Méouge (05)
-      
-    - title: les jeudis musicaux 
-      date: 12 août
-      address: Aubenas (07)
-      
-    - title: fête votive
-      date: 15 août
-      address: St Martin de Castillon (84)
-    
-    - title: festival le week end
-      date: 11 septembre
-      address: Causse de la selle (34)
-      
-    - title: Foire bio de Montfroc
-      date: 2 octobre
-      address: Montfroc (04)
-      
-- name: 2020
-  dates:
-    - title: Altitude Jazz Festival
-      date: 29,30 et 31 Janvier
-      address: Briançon (05)
-      
-    - title: Baracoucou
-      date: 1 Février
-      address: Valdrôme (26)
-      
-    - title: La gare à coulisse (annulé)
-      date: 17 avril
-      address: Eurre (26)
-      
-    - title: Cartes sur table (annulé)
-      date: 28 mai
-      address: Gaillac (81)
-      
-    - title: Printemps des Cultures (reporté)
-      date: 29 Mai
-      address: Albi (81)
-      
-    - title: Zic et Move (annulé)
-      date: 6 Juin
-      address: Saint-Michel de Lanès (11)
   
-    - title: fête de la musqiue (annulé)
-      date: 21 juin
-      address: Aubignan (84)
-    
-    - title: festival "l'été de Vaour" (reporté)
-      date: 5 août
+    - title: Le Kfé quoi
+      date: 5 mars
+      address: Forclaquier (04)
+      
+    - title: Soirée de l'Oktopus
+      date: 29 avril
+      address: Sauve (30)
+      
+    - title: Printemps des cultures
+      date: 10 juin
+      address: Albi (81)
+      
+    - title: Festival Terroirs en fête
+      date: 11 juin
+      address: Chateauneuf de Gadagne (84)
+      
+    - title: Concert au château de Tornac
+      date: 18 juin
+      address: Tornac (30)
+      
+    - title: Festival Le Cabaret Sauvage
+      date: 2 juillet
+      address: Le Teil (07)
+      
+    - title: L'été de Vaour
+      date: 3 août
       address: Vaour (81)
       
-    - title: festival Arts et Vignes (reporté)
-      date: 6 août
-      address: Châtillon en Diois (26)
-      
-    - title: fête votive (annulé)
-      date: 15 août
-      address: St Martin de Castillon (84)
-      
-    - title: Festival sous la falaise  
-      date: 5 septembre
-      address: St Jean en Royans (26)
-    
-    - title: Le week end (annulé)
-      date: 12 septembre
-      address: Causse de la selle (34)
-      
-    - title: Foire bio de Montfroc (annulé)
-      date: 3 octobre
-      address: Montfroc (04)
-      
-    - title: La Maison de Quartier Coluche (reporté)
-      date: 3 octobre
-      address: Roman sur Isère (26)
-      
-    - title: Saison culturel théâtre Gérard Philipe (annulé)
-      date: 27 Novembre
-      address: Saint-Jean de Maurienne (73)
-      
-      
-- name: 2019
-  dates:
-    - title: Caraba
-      date: 2 février
-      address: Massillargues (30)
-      
-    - title: soirée association voies libres
-      date: 12 avril
-      address: Barsac (26)
-      
-    - title: Les Oiseaux de Passage
-      date: 24 mai
-      address: Lentillères (07)
-      
-    - title: Les rencontres festives de l'epicycle
-      date: 30 juin
-      address: Avignon (84)
-      
-    - title: Camping les Ephélides  
-      date: 11 juillet
-      address: Buis les Baronnies (26)
-      
-    - title: festival "des pieds dans la bassine"
-      date: 13 juillet
-      address: St Sternin les Maihoc (81)
-
-    - title: Le Poney Rouge
-      date: 20 juillet
-      address: Villes sur Auzon (84)
-      
-    - title: Restaurant le Mérilou
-      date: 14 août
-      address: Die (26)
-      
-    - title: Le mas de Riri
-      date: 21 août
-      address: Celles (34)
-      
-    - title: Festiv'été
+    - title: Le plateau sept
       date: 22 août
-      address: Nyons (26)
-      
-    - title: Urban park 
-      date: 23 août
-      address: Alès (30)
-      
-    - title: Court Bouillon
-      date: 5 octobre
-      address: Le Beaucet (84)
-      
-      
-- name: 2018
-  dates:
-    - title: La p'tite maison bio
-      date: 20 et 21 avril
-      address: Apt (84)
-      
-    - title: Café du cours
-      date: 4 mai
-      address: Reillane (04)
-      
-    - title: Festival gard à la bière
-      date: 5 mai
-      address: Bessèges (30)
-     
-    - title: Marché du coin
-      date: 14 juin
-      address: Cliousclat (26)
-      
-    - title: Fête de la musique
-      date: 21 juin
-      address: St Julien de Serre (07)
-      
-    - title: Concert à la ferme marine des Aresquiers
-      date: 22 juin
-      address: Vic la Gardiole (34)
-      
-    - title: Brasserie la vieille mule
-      date: 28 juin
-      address: Le Poët Laval (26)
-      
-    - title: Festival musiques aux sources
-      date: 7 juillet
-      address: Desaignes (07)
-      
-    - title: Café de la place
-      date: 9 juillet
-      address: Octon (34)
+      address: Montselgues (07)
       
     - title: Chez Félix
-      date: 10 juillet
+      date: 23 août
       address: Anduze (30)
-    
-    - title: Fest-y faré
-      date: 20 juillet
-      address: Les Houches (74)
       
-    - title: Marché de Créateur des Culottés
-      date: 2 août
-      address: Vernoux en Vivarais (07)
+    - title: La boutique de la bière 
+      date: 25 août
+      address: Sainte Tulle (04)
       
-    - title: Mariage
-      date: 4 août
-      address: St Paulet de caisson (30)
+    - title: Festival le Week end
+      date: 2 septembre
+      address: la grange au Causse de la selle (34)
       
-    - title: Marché du Tiroir
-      date: 13 août
-      address: Suze (26)
-      
-    - title: Fête de la lavande
-      date: 14 août
-      address: St Geniez (04)
-      
-    - title: Fête des brasseurs
-      date: 29 septembre
-      address: Thoard (04)
-    
-    - title: Mariage
-      date: 10 novembre
-      address: Bassens (33)
-      
-- name: 2017
-  dates:
-    - title: la fête des bergers
-      date: 21 janvier
-      address: la Cimenterie, Forcalquier (04)
-      
-    - title: festival la rue Jaune 
-      date: 11 mars
-      address: Avignon (84)
-      
-    - title: soirée klezmer du collectif "ramasse-miettes"
-      date: 4 mai
-      address: Cépie (11)
-      
-    - title: le café plùm
-      date: 5 mai
-      address: Lautrec (81)
-      
-    - title: fête privée 
-      date: 6 mai
-      address: Bordeaux (33)
-      
-    - title: le Kfé quoi
-      date: 24 mai
-      address: Forcalquier (04)
-      
-    - title: marché du jeudi soir
-      date: 25 mai
-      address: St Julien de Serre (07)
-    
-    - title: Cèze'tival
-      date: 26 mai
-      address: Goudargues (30)
-      
-    - title: festival "d'une cour à l'autre"
-      date: 27 mai
-      address: Villeneuve de Berg (07)
-      
-    - title: villipendrix art is show
-      date: 4 juin
-      address: Villeperdrix (26)
-      
-    - title: fête de l'association Ziktamu
-      date: 10 juin
-      address: Ners (30)
-      
-    - title: place de l'église 
-      date: 12 juillet
-      address: Moustiers ste Marie (04)
-    
-    - title: festival du cinéma  belge à Nîmes et en garrigues
-      date: 28 juillet
-      address: Garrigues (30)
-      
-    - title: festival du père Quepas
-      date: 9 août
-      address: Montaigu du Quercy (82)
-    
-    - title: les concerts du parc
-      date: 17 août
-      address: Uriage les bains (38)
-     
-    - title: la Guichette à Michel
-      date: 24 août
-      address: Pompignan (30)
-      
-    - title: les platanes craquent
-      date: 9 septembre
-      address: Séguret (84)
-    
-    - title: mariage
-      date: 29 septembre
-      address: Lausanne (Suisse)
-      
-    - title: le cabaret des ramières 
-      date: 28 octobre
-      address: Eurre (26)
-    
-    - title: festival musique en novembre et festival des médiathèques
-      date: 24 novembre
-      address: Castellane (04)
-      
-- name: 2016
-  dates:
-    - title: festival trad'hivernale
-      date: 15 janvier
-      address: Sommières (30)
-
-    - title: bar des collones
-      date: 16 janvier
-      address: Pompignan (30)
-
-    - title: concert assocation l'Arsène
-      date: 5 mars
-      address: Reilhanette (26)
-
-    - title: salle des fêtes
-      date: 12 mars
-      address: Réauville (26)
-
-    - title: café du cours
-      date: 1 avril
-      address: Reillane (04)
-
-    - title: le triboulet
-      date: 8 avril
-      address: Anduze (30)
-
-    - title: le hangar
-      date: 9 avril
-      address: Malérargues (30)
-
-    - title: le troquet toqué
-      date: 15 avril
-      address: Sauve (30)
-
-    - title: la fiesta de Santa fé
-      date: 7 mai
-      address: Saint ferréol-trente-pas (26)
-
-    - title: festival des Passadoires
-      date: 28 mai
-      address: St Etienne vallée française (48)
-
-    - title: le poney rouge
-      date: 3 juin
-      address: Villes sur Auzon (84)
-
-    - title: la cave des pas sages
-      date: 4 juin
-      address: Avignon (84)
-
-    - title: le grand café français
-      date: 17 juin
-      address: Aubenas (07)
-
-    - title: la barge
-      date: 18 juin
-      address: Genève (Suisse)
-
-    - title: bar le Dromon
-      date: 19 juin
-      address: St Geniez (04)
-
-    - title: Fête du village
-      date: 24 juin
-      address: Eourre (05)
-
-    - title: fête privée
-      date: 5 juillet
-      address: Saignon (84)
-
-    - title: la Fabuleuz
-      date: 13 juillet
-      address: Saignon (84)
-
-    - title: festival du film belge
-      date: 17 juillet
-      address: Arpaillargue (30)
-
-    - title: Gigondas sur table
-      date: 18 juillet
-      address: Gigondas (84)
-
-    - title: fête privée
-      date: 23 juillet
-      address: Chateauneuf de Gadagne (84)
-
-    - title: les nocturnes de la Bréole
-      date: 27 juillet
-      address: La Bréole (04)
-
-    - title: camping universal
-      date: 10 août
-      address: Rochegude (30)
-
-    - title: fête du village
-      date: 14 août
-      address: Lassale (30)
-
-    - title: Festiv'été
-      date: 18 août
-      address: Nyons (26)
-
-    - title: fête privée
-      date: 27 août
-      address: Vaison la romaine (84)
-
-    - title: fête de la Darreze
-      date: 24 septembre
-      address: Saillans (26)
-
-    - title: les lubies
+    - title: Foire bio
       date: 1 octobre
-      address: Saint Julien les Rosiers (30)
-
-    - title: concert association "aqui sem ben"
-      date: 26 novembre
-      address: Concoules (30)
-
-    - title: le Rex
-      date: 17 décembre
-      address: St Remy de Provence (13)
+      address: Montfroc (04)
       
-    - title: nouvel an
-      date: 31 décembre
-      address: Embrun (05)
+    - title: la saison à Rabastens
+      date: 14 octobre
+      address: Rabastens (81)
+      
