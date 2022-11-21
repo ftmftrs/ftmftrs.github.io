@@ -3,7 +3,7 @@
 name: Fatum Fatras
 markdown: redcarpet
 pygments: false
-url: http://www.fatumfatras.com
+url: http://fatumfatras.com
 exclude:
   - node_modules
   - src
