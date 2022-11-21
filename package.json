@@ -6,7 +6,7 @@
     "build": "grunt imagemagick-resize"
   },
   "devDependencies": {
-    "grunt": "0.4.5",
+    "grunt": "1.5.3",
     "grunt-cli": "0.1.13",
     "grunt-contrib-less": "~0.10",
     "grunt-contrib-cssmin": "~0.7",
