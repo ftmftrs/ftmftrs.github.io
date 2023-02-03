@@ -26,82 +26,82 @@
 - name: 2022
   dates:
   
-    - title: Le Kfé quoi
-      date: 5 mars
-      address: Forclaquier (04)
+   - title: Le Kfé quoi
+     date: 5 mars
+     address: Forclaquier (04)
       
-    - title: Soirée de l'Oktopus
-      date: 29 avril
-      address: Sauve (30)
+   - title: Soirée de l'Oktopus
+     date: 29 avril
+     address: Sauve (30)
       
-    - title: Printemps des cultures
-      date: 10 juin
-      address: Albi (81)
+   - title: Printemps des cultures
+     date: 10 juin
+     address: Albi (81)
       
-    - title: Festival Terroirs en fête
-      date: 11 juin
-      address: Chateauneuf de Gadagne (84)
+   - title: Festival Terroirs en fête
+     date: 11 juin
+     address: Chateauneuf de Gadagne (84)
       
-    - title: Festival Le Cabaret Sauvage
-      date: 2 juillet
-      address: Le Teil (07)
+   - title: Festival Le Cabaret Sauvage
+     date: 2 juillet
+     address: Le Teil (07)
       
-    - title: les guinguettes de Rosmerta
-      date: 14 juillet
-      address: Avignon (84)
+   - title: les guinguettes de Rosmerta
+     date: 14 juillet
+     address: Avignon (84)
       
-    - title: Guinguette la poule à facette
-      date: 1 août
-      address: Piegros (26)
+   - title: Guinguette la poule à facette
+     date: 1 août
+     address: Piegros (26)
       
-    - title: L'été de Vaour
-      date: 3 août
-      address: Vaour (81)
+   - title: L'été de Vaour
+     date: 3 août
+     address: Vaour (81)
       
-    - title: Le plateau sept
-      date: 22 août
-      address: Montselgues (07)
+   - title: Le plateau sept
+     date: 22 août
+     address: Montselgues (07)
       
-    - title: Chez Félix
-      date: 23 août
-      address: Anduze (30)
+   - title: Chez Félix
+     date: 23 août
+     address: Anduze (30)
       
-    - title: concert
-      date: 24 août
-      address: La Palud sur Verdon (04)
+   - title: concert
+     date: 24 août
+     address: La Palud sur Verdon (04)
        
-    - title: La boutique de la bière 
-      date: 25 août
-      address: Sainte Tulle (04)
+   - title: La boutique de la bière 
+     date: 25 août
+     address: Sainte Tulle (04)
       
-    - title: Le Café du cours
-      date: 26 août
-      address: Reillane (04)
+   - title: Le Café du cours
+     date: 26 août
+     address: Reillane (04)
       
-    - title: festival Ce soir on ferme la rue
-      date: 1 septembre
-      address: Sallanches (74)
+   - title: festival Ce soir on ferme la rue
+     date: 1 septembre
+     address: Sallanches (74)
       
-    - title: Festival le Week end
-      date: 2 septembre
-      address: la grange au Causse de la selle (34)
+   - title: Festival le Week end
+     date: 2 septembre
+     address: la grange au Causse de la selle (34)
       
-    - title: la saison à Rabastens
-      date: 14 octobre
-      address: Rabastens (81)
+   - title: la saison à Rabastens
+     date: 14 octobre
+     address: Rabastens (81)
       
-    - title: les soirées d'automne
-      date: 19 novembre
-      address: Le Barroux (84)  
+   - title: les soirées d'automne
+     date: 19 novembre
+     address: Le Barroux (84)  
       
-    - title: Concert asso AVEC 
-      date: 2 décembre
-      address: Anduze (30)
+   - title: Concert asso AVEC 
+     date: 2 décembre
+     address: Anduze (30)
       
-    - title : La Bobine
-      date: 3 décembre
-      address: Aubenas (07)
+   - title : La Bobine
+     date: 3 décembre
+     address: Aubenas (07)
       
-    - title: troquet de Marette
-      date: 4 décembre
-      address: Châteaudouble (26)
+   - title: troquet de Marette
+     date: 4 décembre
+     address: Châteaudouble (26)
