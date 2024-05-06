@@ -17,13 +17,13 @@
      date: 1 Août
      address: St Romain-en-Gal (69)
 
-    - title: Festival Magne en musique
-      date: 23 août
-      address: Marguerittes (30)
+   - title: Festival Magne en musique
+     date: 23 août
+     address: Marguerittes (30)
 
-    - title: Les concerts de la grange du Phaux
-      date: 19 octobre
-      address: Noirétable (42)
+   - title: Les concerts de la grange du Phaux
+     date: 19 octobre
+     address: Noirétable (42)
   
 - name: 2023
   dates:
