@@ -1,4 +1,31 @@
 ---
+- name: 2024
+  dates:
+
+- title: Les 10 ans de l'Atelier paysan  
+  date: 7 juin
+  address: Ferme des Volonteux, Beaumont-les-Valences (26)
+
+- title: Concert au jardin de la maison Perséphone
+  date: 21 juillet
+  address: Bessèges (30)
+
+- title: Les mardis du lavoir
+  date: 30 juillet
+  address: St Nazaire le desert (26)
+
+- title: Jardin du musée Gallo-romain
+  date: 1 Août
+  address: St Romain-en-Gal (69)
+
+- title: Festival Magne en musique
+  date: 23 août
+  address: Marguerittes (30)
+
+- title: Les concerts de la grange du Phaux
+  date: 19 octobre
+  address: Noirétable (42)
+  
 - name: 2023
   dates:
   
