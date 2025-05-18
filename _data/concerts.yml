@@ -1,3 +1,31 @@
+- name: 2025
+  dates:
+
+   - title: Les rencontres de la combe
+    date: 20 spetembre
+    address: Rochefort -Samson (26)
+
+   - title: Le café des chataigners
+     date: 26 septembre
+     address: Le Vigan (30)
+
+   - title: le KA
+     date: 11 octobre
+     address: forcalquier (04)
+
+   - title: NÎMES MÉTROPOLE JAZZ FESTIVAL
+     date: 14 octobre
+     address: la Paloma à Nimes (30)
+
+   - title: Cevennes 2050
+     date: 17 octobre
+     address: St Jean du gard (30)
+
+   - title: Les soirées d'automne
+     date: 15 novembre
+     address: Vaucluse (84)
+     
+
 - name: 2024
   dates:
 
