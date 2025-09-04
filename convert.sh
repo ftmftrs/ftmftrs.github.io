@@ -1,0 +1,13 @@
+mogrify -path "dist/img/xs/" -quality 85%  -resize 320 "src/img/1/*.jpg"
+mogrify -path "dist/img/s/" -quality 85%  -resize 768 "src/img/1/*.jpg"
+mogrify -path "dist/img/m/" -quality 85%  -resize 1024 "src/img/1/*.jpg"
+mogrify -path "dist/img/l/" -quality 85%  -resize 1366 "src/img/1/*.jpg"
+mogrify -path "dist/img/xl/" -quality 85%  -resize 1680 "src/img/1/*.jpg"
+mogrify -path "dist/img/xxl/" -quality 85%  -resize 1920 "src/img/1/*.jpg"
+
+mogrify -path "dist/img/xs/" -quality 85%  -resize 320 "src/img/0.5/*.jpg"
+mogrify -path "dist/img/s/" -quality 85%  -resize 384 "src/img/0.5/*.jpg"
+mogrify -path "dist/img/m/" -quality 85%  -resize 512 "src/img/0.5/*.jpg"
+mogrify -path "dist/img/l/" -quality 85%  -resize 683 "src/img/0.5/*.jpg"
+mogrify -path "dist/img/xl/" -quality 85%  -resize 840 "src/img/0.5/*.jpg"
+mogrify -path "dist/img/xxl/" -quality 85%  -resize 960 "src/img/0.5/*.jpg"
