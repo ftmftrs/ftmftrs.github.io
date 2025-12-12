@@ -1,3 +1,28 @@
+- name: 2026
+  dates:
+
+  - title: Espace Maurice Romanet
+    date: 26 janvier
+    address: Les menuires (73)
+
+  - title: Les nuits de la roulotte
+    date: 5 mars
+    address: Chamonix (74)
+
+  - title: tanière à mémé
+    date: 6 mars 
+    address: St Andéol (38)
+
+  - title: Fête de la musique Bizz'art
+    date: 20 juin
+    address: Bourdeaux (26)
+
+  - title: Le bal des forges
+    date: 21 juin
+    address: Annonay (07)
+
+
+
 - name: 2025
   dates:
 
