@@ -12,7 +12,7 @@
     "grunt-contrib-cssmin": "~0.7",
     "grunt-contrib-concat": "~0.3",
     "grunt-gh-pages": "~0.9",
-    "grunt-contrib-watch": "~0.4",
+    "grunt-contrib-watch": "~1.1",
     "grunt-imagemagick": "git://github.com/icagstrout/grunt-imagemagick.git",
     "grunt-contrib-imagemin": "0.7.1"
   }
